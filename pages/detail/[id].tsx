@@ -65,13 +65,13 @@ const Detail = ({
         <span className="text-2xl font-bold text-center">Detail Products</span>
         <div className="flex flex-col gap-1">
           <div className="flex items-center justify-center mb-3">
-            <img src={data.thumbnail} alt={data.title} />
+            <img src={data?.thumbnail} alt={data?.title} />
           </div>
           <div className="grid grid-cols-[150px_12px_1fr] items-center">
             <span>Images</span>
             <span>:</span>
             <div className="flex flex-row gap-3">
-              {data.images.map((value: string, idx: number) => {
+              {data?.images.map((value: string, idx: number) => {
                 return (
                   <div
                     key={idx}
@@ -81,7 +81,7 @@ const Detail = ({
                       e.preventDefault();
                     }}
                   >
-                    <img src={value} alt={data.title} className="w-12 h-12" />
+                    <img src={value} alt={data?.title} className="w-12 h-12" />
                   </div>
                 );
               })}
@@ -90,33 +90,33 @@ const Detail = ({
           <div className="grid grid-cols-[150px_12px_1fr]">
             <span>Title</span>
             <span>:</span>
-            <span className="font-semibold">{data.title}</span>
+            <span className="font-semibold">{data?.title}</span>
           </div>
-          <div className="grid grid-cols-[150px_12px_1fr]">
+          <div className="grid grid-cols-[150px_12px_1fr] items-center">
             <span>Description</span>
             <span>:</span>
-            <span className="font-semibold">{data.description}</span>
+            <span className="font-semibold">{data?.description}</span>
           </div>
           <div className="grid grid-cols-[150px_12px_1fr]">
             <span>Brand</span>
             <span>:</span>
-            <span className="font-semibold">{data.brand}</span>
+            <span className="font-semibold">{data?.brand}</span>
           </div>
           <div className="grid grid-cols-[150px_12px_1fr]">
             <span>Category</span>
             <span>:</span>
-            <span className="font-semibold">{data.category}</span>
+            <span className="font-semibold">{data?.category}</span>
           </div>
           <div className="grid grid-cols-[150px_12px_1fr]">
             <span>Stock</span>
             <span>:</span>
-            <span className="font-semibold">{data.stock}</span>
+            <span className="font-semibold">{data?.stock}</span>
           </div>
           <div className="grid grid-cols-[150px_12px_1fr]">
             <span>Price</span>
             <span>:</span>
             <span className="font-semibold">
-              {currencyFormat(data.price || 0)}
+              {currencyFormat(data?.price || 0)}
             </span>
           </div>
         </div>

@@ -37,7 +37,7 @@ export default function About() {
           <span>LinkediIn</span>
           <span>:</span>
           <a
-            target="_blank"
+            target="_blank" rel="noreferrer"
             href="https://www.linkedin.com/in/muhammad-fiqih-firdiansyah/"
           >
             LinkedIn
@@ -47,7 +47,7 @@ export default function About() {
           <span>GitHub</span>
           <span>:</span>
           <a
-            target="_blank"
+            target="_blank" rel="noreferrer"
             href="https://github.com/firdiansyah26/product-list"
           >
             GitHub
