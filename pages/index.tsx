@@ -94,16 +94,3 @@ const Index = ({
 };
 
 export default Index;
-
-// export default function Index() {
-//   // useEffect(() => {
-//   //   const res = fetchData();
-//   //   console.log("res ; ", res);
-//   // }, []);
-
-//   return (
-//     <>
-//       <Tabel />
-//     </>
-//   );
-// }
