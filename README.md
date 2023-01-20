@@ -14,7 +14,7 @@ Vercel        :
 ```
 
 ## How to Run
-### Running this command in cmd `movie-time`
+### Running this command in cmd
 ```bash
 1. yarn / npm i
 2. yarn dev / npm run dev
