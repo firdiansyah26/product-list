@@ -36,14 +36,22 @@ export default function About() {
         <div className="grid grid-cols-[150px_12px_1fr]">
           <span>LinkediIn</span>
           <span>:</span>
-          <a href="https://www.linkedin.com/in/muhammad-fiqih-firdiansyah/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/muhammad-fiqih-firdiansyah/"
+          >
             LinkedIn
           </a>
         </div>
         <div className="grid grid-cols-[150px_12px_1fr]">
           <span>GitHub</span>
           <span>:</span>
-          <a href="https://github.com/firdiansyah26/product-list">GitHub</a>
+          <a
+            target="_blank"
+            href="https://github.com/firdiansyah26/product-list"
+          >
+            GitHub
+          </a>
         </div>
         <div className="grid grid-cols-[150px_12px_1fr]">
           <span>Author</span>
