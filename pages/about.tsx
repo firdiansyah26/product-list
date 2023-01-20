@@ -37,7 +37,8 @@ export default function About() {
           <span>LinkediIn</span>
           <span>:</span>
           <a
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/muhammad-fiqih-firdiansyah/"
           >
             LinkedIn
@@ -47,10 +48,18 @@ export default function About() {
           <span>GitHub</span>
           <span>:</span>
           <a
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
             href="https://github.com/firdiansyah26/product-list"
           >
             GitHub
+          </a>
+        </div>
+        <div className="grid grid-cols-[150px_12px_1fr]">
+          <span>api</span>
+          <span>:</span>
+          <a target="_blank" rel="noreferrer" href="https://dummyjson.com/">
+            API
           </a>
         </div>
         <div className="grid grid-cols-[150px_12px_1fr]">
