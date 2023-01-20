@@ -10,7 +10,7 @@ Next Version  : 13.1.2
 Typescript. V : 4.9.4
 Framework     : NextJs (Typescript)
 Styling       : Tailwind
-Vercel        : 
+Vercel        : https://product-list-sable.vercel.app/
 ```
 
 ## How to Run
